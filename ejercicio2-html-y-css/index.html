@@ -8,6 +8,27 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="contenedor">
+        <div class="caja">
+            <h1>Login</h1>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Tu Correo electronico" required="">
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="Escribe tu contraseña" required="">
+            <label for="Genero">Genero</label>
+            <select id="Genero">
+                <option value="" disabled="" selected="">--selecciona--</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
+            <div class="terminos">
+                <label for="cosito">
+                    <input type="checkbox" id="cosito"/>Acepto los terminos</label>
+            </div>
+            
+            <button id="enviar">Ingresar</button>
+        </div>
+    </div>
 </body>
+
 </html>
